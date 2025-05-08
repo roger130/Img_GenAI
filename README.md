@@ -71,19 +71,14 @@ During training:
 
 This adversarial process encourages the Generator to produce increasingly realistic fashion images over time.
 
-## Usage
-
-1. Clone the repository
-2. Install requirements:
-3. Run the training:
-4. Adjust parameters in `config.py` to experiment with different settings
-
 ## Generated Samples
 
 Check the `results/` and `results1/` directories for:
 - Images showing training progression across epochs
+  ! [epoch0] (results/epoch_0.png)
 - Grid visualizations of generated fashion items
 - Latent space interpolation demonstrations
+  
 
 ## References
 
