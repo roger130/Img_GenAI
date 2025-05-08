@@ -85,8 +85,8 @@ Check the `results/` and `results1/` directories for:
   </div>
 - Latent space interpolation demonstrations
    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
-    <img src="results/latent_interpolation.png" width="300px" alt="Epoch 0" />
-    <img src="results_1/latent_interpolation.png" width="300px" alt="Epoch 4" />
+    <img src="results/latent_interpolation.png" width="300px" alt="config1" />
+    <img src="results_1/latent_interpolation.png" width="300px" alt="config2" />
   </div>  
 
 ## References
