@@ -85,7 +85,7 @@ Check the `results/` and `results1/` directories for:
     <img src="results/epoch_19.png" width="160px" alt="Epoch 19" />
   </div>
 - Grid visualizations of best generated fashion items
-  ![best]results/epoch_19.png
+  ![best](results/epoch_19.png)
 
 - Latent space interpolation demonstrations
    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
