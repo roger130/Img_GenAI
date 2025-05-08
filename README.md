@@ -75,7 +75,13 @@ This adversarial process encourages the Generator to produce increasingly realis
 
 Check the `results/` and `results1/` directories for:
 - Images showing training progression across epochs
-  ![Epoch 0](results/epoch_0.png) ![Epoch 4](results/epoch_4.png) ![Epoch 9](results/epoch_9.png) ![Epoch 14](results/epoch_14.png) ![Epoch 19](results/epoch_19.png)
+  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+    <img src="results/epoch_0.png" width="80px" alt="Epoch 0" />
+    <img src="results/epoch_4.png" width="80px" alt="Epoch 4" />
+    <img src="results/epoch_9.png" width="80px" alt="Epoch 9" />
+    <img src="results/epoch_14.png" width="80px" alt="Epoch 14" />
+    <img src="results/epoch_19.png" width="80px" alt="Epoch 19" />
+  </div>
 - Grid visualizations of generated fashion items
 - Latent space interpolation demonstrations
   
