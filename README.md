@@ -80,7 +80,6 @@ Check the `results/` and `results1/` directories for:
 - Images showing training progression across epochs
 - Grid visualizations of generated fashion items
     <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
-    <img src="results/epoch_0.png" width="160px" alt="Epoch 0" />
     <img src="results/epoch_4.png" width="160px" alt="Epoch 4" />
     <img src="results/epoch_9.png" width="160px" alt="Epoch 9" />
     <img src="results/epoch_14.png" width="160px" alt="Epoch 14" />
