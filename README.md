@@ -50,7 +50,10 @@ The repository includes loss curve plots showing the training dynamics:
 - Generator loss tends to increase initially as the discriminator improves
 - Discriminator loss decreases as it learns to distinguish real and fake images
 - As training progresses, both losses should stabilize when the networks reach equilibrium
-
+ <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+    <img src="results/loss_curves.png" width="400px" alt="config1" />
+    <img src="results1/loss_curves.png" width="400px" alt="config2" />
+     
 ### Latent Space Interpolation
 
 The latent space interpolation demonstrates the model's ability to generate meaningful transitions between different fashion items. By linearly interpolating between two random points in the latent space, we can:
