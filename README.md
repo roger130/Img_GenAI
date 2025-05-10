@@ -1,6 +1,9 @@
 # Fashion-MNIST DCGAN Implementation
 
 This repository contains an implementation of a Deep Convolutional Generative Adversarial Network (DCGAN) trained on the Fashion-MNIST dataset. The implementation is built using PyTorch and features a modular design for easy experimentation.
+
+## Setup Instructions
+
 ### Prerequisites
 - Python 3.7 or higher
 
