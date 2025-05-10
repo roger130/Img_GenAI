@@ -30,16 +30,15 @@ Alternatively, you can load the trained model and generate images in your own sc
 from models import Generator
 import torch
 
-# Load the trained generator
+#load the trained generator
 generator = Generator(ngf=64, nz=100)
 generator.load_state_dict(torch.load('models/generator_final.pth'))
 generator.eval()
 
-# Generate images (example code)
+#Generate images
 with torch.no_grad():
-    noise = torch.randn(16, 100, 1, 1)  # 16 images with latent size 100
+    noise = torch.randn(16, 100, 1, 1)  #16 images with latent size 100
     fake_images = generator(noise)
-    # Save or display the images
 ```
 ## Project Structure
 
