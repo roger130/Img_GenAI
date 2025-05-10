@@ -6,7 +6,7 @@ This repository contains an implementation of a Deep Convolutional Generative Ad
 
 ### Installation
 1. Clone the repository:
-git clone https://github.com/roger130/Img_GenAI.git
+git clone 
 
 2. Install the required dependencies:
 pip install -r requirements.txt
@@ -40,7 +40,7 @@ with torch.no_grad():
     noise = torch.randn(16, 100, 1, 1)  # 16 images with latent size 100
     fake_images = generator(noise)
     # Save or display the images
-
+```
 ## Project Structure
 
 - **main.py**: Training loop and execution entry point
