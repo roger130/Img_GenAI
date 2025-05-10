@@ -1,6 +1,45 @@
 # Fashion-MNIST DCGAN Implementation
 
 This repository contains an implementation of a Deep Convolutional Generative Adversarial Network (DCGAN) trained on the Fashion-MNIST dataset. The implementation is built using PyTorch and features a modular design for easy experimentation.
+### Prerequisites
+- Python 3.7 or higher
+
+### Installation
+1. Clone the repository:
+git clone https://github.com/roger130/Img_GenAI.git
+
+2. Install the required dependencies:
+pip install -r requirements.txt
+
+### Running the Training
+To train the model with default parameters:
+python main.py
+
+### Configuration Options
+You can modify the hyperparameters in `config.py` to experiment with different settings:
+- Batch size
+- Learning rate
+- Number of epochs
+- Latent vector size
+- Number of generator/discriminator feature maps (NGF/NDF)
+
+
+
+Alternatively, you can load the trained model and generate images in your own script:
+```python
+from models import Generator
+import torch
+
+# Load the trained generator
+generator = Generator(ngf=64, nz=100)
+generator.load_state_dict(torch.load('models/generator_final.pth'))
+generator.eval()
+
+# Generate images (example code)
+with torch.no_grad():
+    noise = torch.randn(16, 100, 1, 1)  # 16 images with latent size 100
+    fake_images = generator(noise)
+    # Save or display the images
 
 ## Project Structure
 
